@@ -1,0 +1,208 @@
+.overall__sidebar__dashboard__layout{
+    // background-color: red;
+    height: 100vh;
+    display: flex;
+   
+    justify-content: space-between;
+    .sidebar__layout{
+        background-color: #0047AB;
+        flex: 1;
+        height: 100vh;
+      
+    }
+
+.dashboard__flex__layout{
+    flex: 6;
+    overflow-y: auto;
+
+    // margin: 20px;
+    background-color: #F4F9FF;
+    height: 100%;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 2px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+  }
+.dashboard__layout{
+   
+    // height: 100%;
+    // width: 100%;
+   
+  
+   .dashboard__text{
+    color: #686868;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 30px;
+   }
+   .overall__task__status__card{
+    display: flex;
+    // justify-content: space-between;
+    margin: 2rem 2rem;
+    gap: 2rem;
+   }
+   .dashboard__date__And__time__card{
+    flex: 1.2;
+   }
+   .dashboard__today__task__card{
+    flex: 1;
+   }
+   .dashboard__pending__task__card{
+    flex: 1;
+    width: 26px;
+   }
+   .dashboard__text__card{
+    color: #0047AB;
+    font-size: 20px;
+    font-weight: 600;
+   }
+   .date__time__text{
+    display: flex;
+justify-content: space-between;
+   }
+   .dashboard__date__text{
+    color: #686868;
+    font-size: 16px;
+    font-weight: 600;
+   }
+
+   .upcomming__holidays__text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #686868;
+   }
+   .dashboard__general__shift__text{
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 700;
+   }
+ 
+  .clockin__button.p-button {
+    margin: 0;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    vertical-align: bottom;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #0047AB;
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 400;
+    height: 36px;
+    width: 100px;
+    width: rem;
+}
+.p-card .p-card-body {
+    padding: 0rem 1.25rem;
+}
+.dashboard__first__card__style{
+    border-radius: 6px;
+    height: 182px;
+}
+.dashboard__card__style{
+    border-radius: 6px;
+   
+}
+.pending__task__card__style{
+    height: 230px;
+}
+.dashboard__card__upcomming__style {
+    height: 280px;
+}
+.dashboard__card__todaytask__style{
+    height: 486px;
+}
+.dashboard__over__due__style{
+    height: 230px;
+}
+
+.dashboard__upcomming__holiday__card{
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard__today__task__type__card{
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    padding: 14px;
+}
+
+.task__type__text{
+    color: #686868;
+    font-size: 14px;
+    font-weight: 400;
+}
+.task__ramadan__text{
+    color: #686868;
+    font-size: 16px;
+    font-weight: 400
+}
+.task__description__text{
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+}
+.clockin__button__text{
+    display: flex;
+    justify-content: end;
+}
+.upcomming__apply__text{
+    border: 1px solid #0047AB;
+    /* padding: 6px 16px 6px 16px; */
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 8px;
+    font-weight: 400;
+    color: #0047AB;
+    height: 30px;
+    width: 62px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  
+   
+
+}
+.calendar__analytic__layout{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    gap: 20px;
+}
+.dashboard__calendar{
+    flex: 2.5;
+    // height: 300px;
+}
+.dashboard__analytic__card__style{
+    height: 530px;
+}
+.dashboard__analytic{
+    flex:1
+}
+.calendar__text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #686868;
+   }
+   .analytic__week__text{
+    display: flex;
+    justify-content: space-between;
+   }
+   .analytic__week1__text{
+    color: #686868;
+    font-size: 16px;
+    font-weight: 600;
+   }
+}
+
+
+
+}
