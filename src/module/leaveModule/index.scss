@@ -1,0 +1,28 @@
+.overall__sidebar__dashboard__layout{
+    // background-color: red;
+    height: 100vh;
+    display: flex;
+   
+    justify-content: space-between;
+    .sidebar__layout{
+        background-color: #0047AB;
+        flex: 1;
+        height: 100vh;
+      
+    }
+    .dashboard__flex__layout{
+        flex: 6;
+        overflow-y: auto;
+    
+        // margin: 20px;
+        background-color: #F4F9FF;
+        height: 100%;
+        width: 100%;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 2px;
+        background-color: #FAFAFA;
+        border-radius: 5px;
+      }
+}
