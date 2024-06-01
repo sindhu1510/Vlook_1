@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './index.scss'
 import { Button } from 'primereact/button';
 import SvgUparrowleft from '../../../assets/icons/SvhUparrowLeft';

@@ -1,3 +1,4 @@
+@import '../../../colors.scss';
 .overall__levae__cards{
     .types__of__leave__card{
         display: flex !important;
@@ -9,7 +10,7 @@
      
     }
     .casual__leave__text{
-        color: #686868;
+        color: $dimgray;
         font-size: 14px;
         font-weight: 500
     }

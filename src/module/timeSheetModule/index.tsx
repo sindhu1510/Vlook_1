@@ -1,4 +1,4 @@
-import LeavesOverview from '../leaveModule/leavesOverview'
+import DailyOverView from '../../module/timeSheetModule/dailyOverview'
 import './index.scss'
 const LeaveModule = () => {
   return (
@@ -8,7 +8,7 @@ const LeaveModule = () => {
                 Sidebar
             </div>
             <div className='dashboard__flex__layout'>
-                <LeavesOverview/>
+                <DailyOverView/>
             </div>
             </div>
     </div>

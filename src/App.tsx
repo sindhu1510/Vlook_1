@@ -1,7 +1,8 @@
 
 import './App.css'
 // import Dashboard from './module/dashBoard';
-import LeaveModule from './module/leaveModule'
+// import LeaveModule from './module/leaveModule';
+import TimeSheetModule from './module/timeSheetModule'
 
 function App() {
   
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
     {/* <Dashboard/> */}
-    <LeaveModule/>
+    {/* <LeaveModule/> */}
+    <TimeSheetModule/>
       
     </>
   )

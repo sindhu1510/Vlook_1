@@ -2,13 +2,13 @@ import * as React from "react";
 interface SvgUploadProps{
     
 }
-const SvgUpload:React.FC<SvgUploadProps> = (props) => (
+const SvgUpload:React.FC<SvgUploadProps> = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={16}
     height={16}
     fill="none"
-    {...props}
+    
   >
     <path
       fill="#0047AB"
