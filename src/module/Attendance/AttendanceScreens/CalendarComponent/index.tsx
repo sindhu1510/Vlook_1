@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Card } from "primereact/card";
 import { Calendar } from "primereact/calendar";
 import { Nullable } from "primereact/ts-helpers";
 import "./index.scss";
-import { ScrollPanel } from "primereact/scrollpanel";
 import { useSelector, useDispatch } from "react-redux";
 import { setSelectedDate } from "../../../dashBoard/calendar/store/calendarMiddilware";
 
@@ -26,13 +24,6 @@ const CalendarComponent = () => {
     dispatch(setSelectedDate(e.value));
   };
 
-  const formatDate = (date: Nullable<Date>) => {
-    if (!date) return "";
-    const day = date.getDate().toString().padStart(2, "0");
-    const month = (date.getMonth() + 1).toString().padStart(2, "0");
-    const year = date.getFullYear();
-    return `${day}/ ${month}/ ${year}`;
-  };
   const highlightDates = ["2024-05-07"];
 
   const dateTemplate = (dateInfo: any) => {
