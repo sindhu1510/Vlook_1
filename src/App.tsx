@@ -1,13 +1,15 @@
 
 import './App.css'
-import Dashboard from './module/dashBoard'
+// import Dashboard from './module/dashBoard';
+import LeaveModule from './module/leaveModule'
 
 function App() {
   
 
   return (
     <>
-    <Dashboard/>
+    {/* <Dashboard/> */}
+    <LeaveModule/>
       
     </>
   )

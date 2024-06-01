@@ -10,7 +10,6 @@ export default function VerticalBarDemo() {
         const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
 
         const daysOfWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
-        const dayNumbers = ['1', '2', '3', '4', '5', '6', '7'];
 
         const barColors = [
             '#D9D9D9',
@@ -18,25 +17,26 @@ export default function VerticalBarDemo() {
             '#0047AB',
             '#D9D9D9',
             '#D9D9D9',
-            '#F6F6F6' 
+            '#F6F6F6'
         ];
 
         const data = {
             labels: daysOfWeek,
             datasets: [
                 {
+                    label: 'Day Data',
                     backgroundColor: barColors,
                     borderColor: '#0047AB',
                     borderRadius: 10,
-                    
+                    width: '10px',
+                    borderSkipped: false,
                     data: [
                         { x: 0, y: [10, 75] },
                         { x: 1, y: [25, 85] },
                         { x: 2, y: [25, 85] },
                         { x: 3, y: [15, 75] },
                         { x: 4, y: [25, 80] },
-                        { x: 5, y: [25, 70] },
-                        
+                        { x: 5, y: [25, 70] }
                     ]
                 }
             ]
@@ -48,6 +48,17 @@ export default function VerticalBarDemo() {
             plugins: {
                 legend: {
                     display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        title: function (context) {
+                            return daysOfWeek[context[0].dataIndex];
+                        },
+                        label: function (context) {
+                            const range = context.raw.y;
+                            return `${range[0]} - ${range[1]}`;
+                        }
+                    }
                 }
             },
             scales: {
@@ -71,9 +82,9 @@ export default function VerticalBarDemo() {
                         color: textColorSecondary,
                         callback: function (value) {
                             const labels = {
+                                10: '9:00',
                                 50: '12:00',
-                                75: '14:00',
-                                95: '19:00'
+                                90: '22:00'
                             };
                             return labels[value] || '';
                         }
