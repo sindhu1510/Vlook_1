@@ -40,3 +40,6 @@
 .read-the-docs {
   color: #888;
 } */
+@import "primeflex/primeflex.css";
+@import "primeflex/themes/primeone-light.css";
+@import "primeflex/themes/primeone-dark.css";
