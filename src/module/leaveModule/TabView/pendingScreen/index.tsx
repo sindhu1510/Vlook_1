@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import { data, dropdownOptions, headerStyle, headerStyles } from './mock';
+import { data, dropdownOptions, headerStyle } from './mock';
 import './index.scss';
 import { Dropdown } from 'primereact/dropdown';
 import { PaginatorRowsPerPageDropdownOptions } from 'primereact/paginator';
@@ -13,11 +13,11 @@ export default function BasicDemo() {
     const [isModalVisible, setIsModalVisible] = useState(false);
 
     const handleClick = () => {
-      setIsModalVisible(true);
+        setIsModalVisible(true);
     };
-  
+
     const handleHide = () => {
-      setIsModalVisible(false);
+        setIsModalVisible(false);
     };
 
     const getStatusStyle = (rowData: { status: any; }) => {
@@ -88,11 +88,10 @@ export default function BasicDemo() {
                     ></Column>
 
 
-<Column
+                    <Column
                         header="Action"
                         field="action"
-                        // className="table__column"
-                        // headerStyle={headerStyle}
+
                         body={() => (
                             <div className="cursor-pointer" onClick={handleClick}>
                                 <SvgEye />
@@ -102,7 +101,7 @@ export default function BasicDemo() {
 
 
                     />
-                    {/* <Column field="action" header="Action" headerStyle={headerStyles}></Column> */}
+
                 </DataTable>
             </div>
             <CreateRequestDetailedView visible={isModalVisible} onHide={handleHide} />
