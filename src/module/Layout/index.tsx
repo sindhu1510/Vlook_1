@@ -10,7 +10,7 @@ const Layout = () => {
       <SideBar />
       </div>
       <div className="layout__main-content">
-        <div className="layout__header">Header</div>
+        {/* <div className="layout__header">Header</div> */}
         <div className="layout__outlet-container p-4">
           <Outlet />
         </div>
@@ -20,3 +20,13 @@ const Layout = () => {
 };
 
 export default Layout;
+
+
+{/* <div className='overall__sidebar__dashboard__layout'>
+<div className='sidebar__layout'>
+    Sidebar
+</div>
+<div className='dashboard__flex__layout'>
+    <DailyOverView/>
+</div>
+</div> */}

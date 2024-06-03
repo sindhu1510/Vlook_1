@@ -3,6 +3,7 @@
     // background-color: red;
     height: 100vh;
     display: flex;
+  
    
     justify-content: space-between;
     .sidebar__layout{
@@ -17,6 +18,7 @@
     overflow-y: auto;
 
     // margin: 20px;
+    // margin: 0;
     background-color: $aliceblue;
     height: 100%;
     width: 100%;
@@ -37,12 +39,12 @@
     color: $dimgray;
     font-size: 20px;
     font-weight: 600;
-    margin: 20px 30px;
+    // margin: 20px 30px;
    }
    .overall__task__status__card{
     display: flex;
     // justify-content: space-between;
-    margin: 2rem 2rem;
+    margin: 2rem 0;
     gap: 2rem;
    }
    .dashboard__date__And__time__card{
@@ -175,7 +177,7 @@ justify-content: space-between;
 .calendar__analytic__layout{
     display: flex;
     justify-content: space-between;
-    margin: 2rem 2rem;
+    margin: 2rem 0;
     gap: 20px;
 }
 .dashboard__calendar{

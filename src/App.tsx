@@ -15,7 +15,7 @@ const App = () => {
           <Route index element={<Dashboard />} />
           <Route path="/leave" element={<LeaveModule/>}/>
           <Route path="/attendance" element={<Attendance />} />
-          <Route path="/timesheet" elements={ <TimeSheetModule/>}/>
+          <Route path="/timesheet" element={ <TimeSheetModule/>}/>
          
           {/* <Route path="/attendancelist" element={<AttendanceList/>}/>
           <Route path="/regularization" element={<Regularization/>}/> */}
