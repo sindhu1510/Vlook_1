@@ -1,3 +1,5 @@
+import { color } from "chart.js/helpers";
+
 export const data = [
   {
     id: '1',
@@ -145,7 +147,16 @@ export const data = [
 ];
 export const headerStyle = {
   borderTopLeftRadius: '6px',
-  borderBottomLeftRadius: '6px'
+  borderBottomLeftRadius: '6px',
+
+
+ 
+}
+export const headerStyle2 = {
+  
+  minWidth:'12rem'
+
+ 
 }
 export const headerStyles = {
   borderTopRightRadius: '6px',

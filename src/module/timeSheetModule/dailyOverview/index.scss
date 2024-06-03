@@ -7,11 +7,14 @@
         font-size: 20px;
        
     }
+    
     .p-calendar-w-btn-right .p-inputtext {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         border-right-style: none;
+        border: none;
       }
+      
       
       .p-calendar:not(.p-calendar-disabled).p-focus>.p-inputtext {
         outline: 0 none;
@@ -29,19 +32,20 @@
           box-shadow 0.2s;
         border-top-style: dashed;
         border-top-color: $lightsilver;
-        border-top: 1px solid $lightsilver !important;
+        // border-top: 1px solid $lightsilver !important;
         border-left: hidden;
-        border-bottom: 1px solid $lightsilver !important;
-        border-right: 1px solid $lightsilver !important;
-        border-top-left-radius: 0px !important;
-        border-bottom-left-radius: 0px !important;
+        // border-bottom: 1px solid $lightsilver !important;
+        // border-right: 1px solid $lightsilver !important;
+        // border-top-left-radius: 0px !important;
+        // border-bottom-left-radius: 0px !important;
       }
       
       .p-calendar {
         position: relative;
         display: inline-flex;
         max-width: 100%;
-        border: 1px solid $cobalt;
+        // border: 1px solid $cobalt;
+        border: none;
         width: 100%;
         border-radius: 6px;
       }
@@ -85,4 +89,10 @@
             width: 72px;
         }
     }
+    
+}
+.p-confirm-popup .p-confirm-popup-footer button {
+  margin: 0 0.5rem 0 0;
+  width: auto;
+  display: none;
 }
