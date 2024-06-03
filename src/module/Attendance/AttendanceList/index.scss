@@ -1,0 +1,210 @@
+.attendance__list__container {
+  background-color: #f4f9ff;
+  .overview__text {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #000;
+    margin: 8px 8px;
+  }
+  .arrow__icon__text {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+  }
+  .registe__button__view {
+    display: grid;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .registe__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0047ab;
+      padding: 10px 16px;
+      border-radius: 6px;
+      color: #fff;
+    }
+  }
+  .calendar__view__header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .calendar__view{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: -24px;
+      .from__to__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 400;
+        color: #686868;
+      }
+      .calendar__box{
+        margin: 0px 16px;
+        width: 100%;
+        border: 1px solid #fff;
+      }
+    }
+  }
+}
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #0047ab !important;
+  color: white;
+  text-align: center !important;
+  padding: 1rem 1rem;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  border-width: 0 0 1px 0;
+  padding: 1rem 1rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+.p-datatable .p-column-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding:0px 10px;
+}
+.p-datatable-table {
+  border-spacing: 0px;
+  width: 100%;
+  border-radius: 10px;
+}
+.p-paginator .p-dropdown {
+  margin-left: 0.5rem;
+  height: 3rem;
+  background-color: #0047ab;
+  color: #fff;
+}
+.p-dropdown .p-dropdown-trigger {
+  background: transparent;
+  color: #fff;
+  width: 3rem;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.p-inputtext {
+  color: #fff;
+}
+
+/* styles.css */
+// .p-datatable .p-datatable-header {
+//     margin-bottom: 20px;
+// }
+
+// .p-datatable .p-datatable-tbody {
+//     margin-top: 20px;
+// }
+.date {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0047ab;
+  // margin: 0;
+  // margin-top: 12px;
+}
+.card__greeen__view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 6px;
+  padding: 8px;
+  .card__greeen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login__text {
+      font-size: 14px;
+      font-weight: 400;
+      color: #686868;
+      margin: 0px 8px;
+    }
+    .time {
+      font-size: 14px;
+      font-weight: 400;
+      color: #8d8d8d;
+    }
+  }
+}
+.total__working__hours {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #0074ab;
+  padding: 12px 42px;
+  border-radius: 6px;
+  .total__working__text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  .total__working__text__time {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 4px;
+  }
+}
+.history__text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #686868;
+}
+.items__view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  .green__red__view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swipe__text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #686868;
+    margin: 0px 8px;
+  }
+}
+.fixed-height-container {
+  height: 360px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.fixed-height-container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.fixed-height-container::-webkit-scrollbar-thumb {
+  background-color: #0047ab;
+  border-radius: 10px;
+}
+
+.fixed-height-container::-webkit-scrollbar-thumb:vertical {
+  min-height: 0px;
+}
+
+.fixed-height-container::-webkit-scrollbar-thumb:horizontal {
+  display: none;
+}
+.p-datatable .p-paginator-bottom{
+  background-color: transparent;
+}
+
