@@ -1,11 +1,11 @@
-import React from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import { data,dropdownOptions, headerStyle, headerStyles } from './mock'; 
+import { data,dropdownOptions, headerStyle } from './mock'; 
 import './index.scss';
 import { Dropdown } from 'primereact/dropdown';
 import { PaginatorRowsPerPageDropdownOptions } from 'primereact/paginator';
 import SvgDropdown from '../../../../assets/icons/SvgDropdown';
+import SvgEye from '../../../../assets/icons/SvgEye';
 
 export default function BasicDemo() {
 
@@ -81,7 +81,20 @@ export default function BasicDemo() {
     )}
 ></Column>
 
-                <Column field="action" header="Action" headerStyle={headerStyles}></Column>
+               
+                <Column
+                        header="Action"
+                        field="action"
+                       
+                        body={() => (
+                            <div className="cursor-pointer">
+                                <SvgEye />
+
+                            </div>
+                        )}
+
+
+                    />
             </DataTable>
         </div>
         </div>

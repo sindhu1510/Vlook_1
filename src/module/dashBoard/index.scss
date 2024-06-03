@@ -1,11 +1,13 @@
+@import '../../colors.scss';
 .overall__sidebar__dashboard__layout{
     // background-color: red;
     height: 100vh;
     display: flex;
+  
    
     justify-content: space-between;
     .sidebar__layout{
-        background-color: #0047AB;
+        background-color: $cobalt;
         flex: 1;
         height: 100vh;
       
@@ -16,14 +18,15 @@
     overflow-y: auto;
 
     // margin: 20px;
-    background-color: #F4F9FF;
+    // margin: 0;
+    background-color: $aliceblue;
     height: 100%;
     width: 100%;
 }
 ::-webkit-scrollbar {
     width: 5px;
     height: 2px;
-    background-color: #FAFAFA;
+    background-color: $lotion;
     border-radius: 5px;
   }
 .dashboard__layout{
@@ -33,15 +36,15 @@
    
   
    .dashboard__text{
-    color: #686868;
+    color: $dimgray;
     font-size: 20px;
     font-weight: 600;
-    margin: 20px 30px;
+    // margin: 20px 30px;
    }
    .overall__task__status__card{
     display: flex;
     // justify-content: space-between;
-    margin: 2rem 2rem;
+    margin: 2rem 0;
     gap: 2rem;
    }
    .dashboard__date__And__time__card{
@@ -55,7 +58,7 @@
     width: 26px;
    }
    .dashboard__text__card{
-    color: #0047AB;
+    color: $cobalt;
     font-size: 20px;
     font-weight: 600;
    }
@@ -64,7 +67,7 @@
 justify-content: space-between;
    }
    .dashboard__date__text{
-    color: #686868;
+    color: $dimgray;
     font-size: 16px;
     font-weight: 600;
    }
@@ -72,10 +75,10 @@ justify-content: space-between;
    .upcomming__holidays__text{
     font-size: 20px;
     font-weight: 600;
-    color: #686868;
+    color: $dimgray;
    }
    .dashboard__general__shift__text{
-    color: #8D8D8D;
+    color: $suvagrey;
     font-size: 14px;
     font-weight: 700;
    }
@@ -90,7 +93,7 @@ justify-content: space-between;
     text-align: center;
     overflow: hidden;
     position: relative;
-    background-color: #0047AB;
+    background-color: $cobalt;
     font-size: 14px;
     border-radius: 6px;
     font-weight: 400;
@@ -123,30 +126,30 @@ justify-content: space-between;
 }
 
 .dashboard__upcomming__holiday__card{
-    border: 1px solid #EAEAEA;
+    border: 1px solid $brightgray;
     border-radius: 6px;
     padding: 14px;
     display: flex;
     justify-content: space-between;
 }
 .dashboard__today__task__type__card{
-    border: 1px solid #EAEAEA;
+    border: 1px solid $brightgray;
     border-radius: 6px;
     padding: 14px;
 }
 
 .task__type__text{
-    color: #686868;
+    color: $dimgray;
     font-size: 14px;
     font-weight: 400;
 }
 .task__ramadan__text{
-    color: #686868;
+    color: $dimgray;
     font-size: 16px;
     font-weight: 400
 }
 .task__description__text{
-    color: #8D8D8D;
+    color: $suvagrey;
     font-size: 14px;
     font-weight: 400;
 }
@@ -155,13 +158,13 @@ justify-content: space-between;
     justify-content: end;
 }
 .upcomming__apply__text{
-    border: 1px solid #0047AB;
+    border: 1px solid $cobalt;
     /* padding: 6px 16px 6px 16px; */
     border-radius: 6px;
     font-size: 16px;
     padding: 8px;
     font-weight: 400;
-    color: #0047AB;
+    color: $cobalt;
     height: 30px;
     width: 62px;
     text-align: center;
@@ -174,7 +177,7 @@ justify-content: space-between;
 .calendar__analytic__layout{
     display: flex;
     justify-content: space-between;
-    margin: 2rem 2rem;
+    margin: 2rem 0;
     gap: 20px;
 }
 .dashboard__calendar{
@@ -190,14 +193,14 @@ justify-content: space-between;
 .calendar__text{
     font-size: 20px;
     font-weight: 600;
-    color: #686868;
+    color: $dimgray;
    }
    .analytic__week__text{
     display: flex;
     justify-content: space-between;
    }
    .analytic__week1__text{
-    color: #686868;
+    color: $dimgray;
     font-size: 16px;
     font-weight: 600;
    }

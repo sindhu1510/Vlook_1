@@ -3,13 +3,13 @@ import * as React from "react";
 interface SvgRightArrowProps{
     
 }
-const SvgRightarrow:React.FC<SvgRightArrowProps> = (props) => (
+const SvgRightarrow:React.FC<SvgRightArrowProps> = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={12}
     height={20}
     fill="none"
-    {...props}
+    
   >
     <path
       fill="#0047AB"

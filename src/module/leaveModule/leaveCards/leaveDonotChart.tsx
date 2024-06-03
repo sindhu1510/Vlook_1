@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Chart } from 'primereact/chart';
 
 export default function DoughnutChartDemo({ color, value }) {
@@ -10,13 +10,13 @@ export default function DoughnutChartDemo({ color, value }) {
         const data = {
             datasets: [
                 {
-                    data: [value, 100 - value], 
+                    data: [value, 100 - value],
                     backgroundColor: [
-                        color, 
+                        color,
                         '#F5F5F5'
                     ],
                     hoverBackgroundColor: [
-                        color, 
+                        color,
                         documentStyle.getPropertyValue('--yellow-400'),
                     ]
                 }

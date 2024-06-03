@@ -16,9 +16,9 @@ import { ScrollPanel } from 'primereact/scrollpanel';
 const Dashboard = () => {
     return (
         <div className='overall__sidebar__dashboard__layout'>
-            <div className='sidebar__layout'>
+            {/* <div className='sidebar__layout'>
                 Sidebar
-            </div>
+            </div> */}
             <div className='dashboard__flex__layout'>
               
         <div className='dashboard__layout'>

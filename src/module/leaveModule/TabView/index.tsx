@@ -1,5 +1,3 @@
-
-import React from 'react'; 
 import { TabView, TabPanel } from 'primereact/tabview';
 import './index.scss';
 import PendingScreen from './pendingScreen';

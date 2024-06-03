@@ -2,13 +2,13 @@ import * as React from "react";
 interface SvgCalendarProps{
     
 }
-const SvgCalendar:React.FC<SvgCalendarProps> = (props) => (
+const SvgCalendar:React.FC<SvgCalendarProps> = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={20}
     height={18}
     fill="none"
-    {...props}
+   
   >
     <path
       fill="#0047AB"

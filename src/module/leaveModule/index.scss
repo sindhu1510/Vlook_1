@@ -1,28 +1,30 @@
-.overall__sidebar__dashboard__layout{
-    // background-color: red;
+@import '../../colors.scss';
+
+.overall__sidebar__dashboard__layout {
     height: 100vh;
     display: flex;
-   
+
     justify-content: space-between;
-    .sidebar__layout{
-        background-color: #0047AB;
+
+    .sidebar__layout {
+        background-color: $cobalt;
         flex: 1;
         height: 100vh;
-      
+
     }
-    .dashboard__flex__layout{
+
+    .dashboard__flex__layout {
         flex: 6;
         overflow-y: auto;
-    
-        // margin: 20px;
-        background-color: #F4F9FF;
+        background-color: $aliceblue;
         height: 100%;
         width: 100%;
     }
+
     ::-webkit-scrollbar {
         width: 5px;
         height: 2px;
-        background-color: #FAFAFA;
+        background-color: $lotion;
         border-radius: 5px;
-      }
+    }
 }

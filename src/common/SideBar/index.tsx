@@ -8,6 +8,8 @@ const SideBar = () => {
       <ul>
         <li><Link to="/">Dashboard</Link></li>
         <li><Link to="/attendance">Attendance</Link></li>
+        <li><Link to="/timesheet">Time Sheet</Link></li>
+        <li><Link to="/leave">Leave</Link></li>
       </ul>
     </div>
   );

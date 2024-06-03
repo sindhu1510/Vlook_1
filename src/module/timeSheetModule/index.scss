@@ -1,0 +1,31 @@
+@import '../../colors.scss';
+
+.overall__sidebar__dashboard__layout {
+    height: 100vh;
+    display: flex;
+
+    justify-content: space-between;
+
+    .sidebar__layout {
+        background-color: $cobalt;
+        flex: 1;
+        height: 100vh;
+
+    }
+
+    .dashboard__flex__layout {
+        flex: 6;
+        overflow-y: auto;
+        background-color: $aliceblue;
+        height: 100%;
+        width: 100%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 2px;
+        background-color: $lotion;
+        border-radius: 5px;
+    }
+    
+}

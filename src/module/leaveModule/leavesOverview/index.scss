@@ -1,7 +1,9 @@
+@import '../../../colors.scss';
+
 .overall__leaves_overview__layout{
-    margin: 24px;
+    margin: 0;
     .leaves__overview__header__text{
-        color: #686868;
+        color: $dimgray;
         font-weight: 600;
         font-size: 20px;
        
@@ -10,7 +12,7 @@
         display: flex;
         justify-content: space-between;
         .leaves__overview__text{
-            color: #686868;
+            color: $dimgray;
             font-size: 20px;
             font-weight: 600;
         }
@@ -24,9 +26,9 @@
             text-align: center;
             overflow: hidden;
             position: relative;
-            background-color: #0047AB;
+            background-color:$cobalt;
             height: 40px;
-            color: #FFFFFF;
+            color: $white;
             font-size: 16px;
             font-weight: 400;
             justify-content: center;

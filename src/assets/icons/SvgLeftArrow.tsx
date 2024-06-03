@@ -2,13 +2,13 @@ import * as React from "react";
 interface SvgLeftArrowProps{
     
 }
-const SvgLeftarrow:React.FC<SvgLeftArrowProps> = (props) => (
+const SvgLeftarrow:React.FC<SvgLeftArrowProps> = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
     height={24}
     fill="none"
-    {...props}
+    
   >
     <path
       fill="#0047AB"

@@ -3,13 +3,13 @@ import * as React from "react";
 interface SvgUparrowRightProps{
 
 }
-const SvgUparrowright:React.FC<SvgUparrowRightProps> = (props) => (
+const SvgUparrowright:React.FC<SvgUparrowRightProps> = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
     height={24}
     fill="none"
-    {...props}
+   
   >
     <rect width={24} height={24} fill="#0047AB" rx={12} />
     <path

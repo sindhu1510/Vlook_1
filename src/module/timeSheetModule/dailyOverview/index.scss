@@ -1,0 +1,88 @@
+@import '../../../colors.scss';
+.overall__timesheet_overview__layout{
+    margin: 0;
+    .leaves__overview__header__text{
+        color: $dimgray;
+        font-weight: 600;
+        font-size: 20px;
+       
+    }
+    .p-calendar-w-btn-right .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right-style: none;
+      }
+      
+      .p-calendar:not(.p-calendar-disabled).p-focus>.p-inputtext {
+        outline: 0 none;
+        outline-offset: 0;
+        box-shadow: 0 0 0 0.2rem transparent;
+        border-color: $antiflash;
+      }
+      
+      .p-calendar-w-btn-right .p-datepicker-trigger {
+        color: $royalblue;
+        background: $white !important;
+        padding: 0rem;
+        border: $lightsilver !important;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+          box-shadow 0.2s;
+        border-top-style: dashed;
+        border-top-color: $lightsilver;
+        border-top: 1px solid $lightsilver !important;
+        border-left: hidden;
+        border-bottom: 1px solid $lightsilver !important;
+        border-right: 1px solid $lightsilver !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+      }
+      
+      .p-calendar {
+        position: relative;
+        display: inline-flex;
+        max-width: 100%;
+        border: 1px solid $cobalt;
+        width: 100%;
+        border-radius: 6px;
+      }
+    .overview__text__and__apply{
+        display: flex;
+        justify-content: space-between;
+        .leaves__overview__text{
+            color: $dimgray;
+            font-size: 20px;
+            font-weight: 600;
+        }
+     
+
+        .calendar__field{
+            display: flex;
+            gap: 10px;
+            margin-left: 20rem;
+          
+        }
+        .from__text__calendar{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .overview__apply__button .p-button {
+            margin: 0;
+            display: inline-flex;
+            cursor: pointer;
+            user-select: none;
+            align-items: center;
+            vertical-align: bottom;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            background-color:$cobalt;
+            height: 40px;
+            color: $white;
+            font-size: 16px;
+            font-weight: 400;
+            justify-content: center;
+            width: 72px;
+        }
+    }
+}
