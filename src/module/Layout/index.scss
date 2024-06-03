@@ -1,0 +1,44 @@
+// .layout__container{
+//     display: flex;
+//     height: 100vh;
+//     // width:100vw;
+//     // width: 100vw;
+//     // overflow: hidden;
+//     // background-color: brown;
+//     // flex-direction: row;
+//     // margin: 0;
+
+// }
+.layout__container {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+background-color: #F4F9FF;
+}
+// .sideView {
+//   height: 100vh;
+//   overflow: auto;
+// }
+.layout__container::-webkit-scrollbar {
+  display: none;
+}
+
+.layout__container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.layout__main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.layout__header {
+}
+
+.layout__outlet-container {
+  width: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,221 @@
+.calendar__layout__attedance {
+  background-color:#fff;
+  border-radius: 6px;
+  height: 100%;
+  .calendar__View {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px 0px 16px;
+    .calendar__sub__view {
+      font-size: 16px;
+      font-weight: 600;
+      color: #686868;
+      // marginLeft: "8px",
+    }
+    .calendar__text__view {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .dot {
+        height: 8px;
+        width: 8px;
+        border-radius: 8px;
+        background-color: #0047ab;
+      }
+    }
+    .casual__text {
+      font-size: 14px;
+      font-weight: 400;
+      color: #686868;
+      margin-left: 8px;
+    }
+  }
+  .dashboard__calendar__style {
+    // height: 530px;
+    .calendar__card{
+        padding: 16px 32px;
+        .calendar__style{
+            height: 320px; width: 100% 
+        }
+    }
+  }
+ 
+  .date__time__text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dashboard__date__text {
+    color: #686868;
+    font-size: 16px;
+    font-weight: 600;
+  }
+ 
+  .calendar__text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #686868;
+  }
+  .calendar__attendance__text {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .calendar__flex__style {
+    flex: 1;
+  }
+  .p-calendar .p-datepicker {
+    min-width: 100%;
+    border: none;
+  }
+  .p-datepicker .p-datepicker-header {
+    padding: 0.5rem;
+    color: #4b5563;
+    background: #ffffff;
+    font-weight: 600;
+    margin: 0;
+    border-bottom: 0;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .calendar__date__text {
+    color: #0047ab;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .p-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #0047ab;
+  }
+  .calendar__time__text {
+    color: #686868;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .swipein__text {
+    color: #686868;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .swipein__and__hours__text {
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .calendar__hrs__text {
+    color: #00ab9d;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  .custom-day-header {
+    color: red;
+    font-weight: bold;
+  }
+  // .custom-date {
+  //     position: relative;
+  // }
+
+  // .blue-dot {
+  //     position: absolute;
+  //     bottom: -8px;
+  //     left: 50%;
+  //     transform: translateX(-50%);
+  //     width: 10px;
+  //     height: 10px;
+  //     background-color: blue;
+  //     border-radius: 50%;
+  // }
+  // .cl-circle {
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     width: 50px;
+  //     height: 50px;
+  //     border-radius: 50%;
+  //     background-color: #0047AB;
+  //     color: #FFFFFF;
+  //     font-weight: 600;
+  //     font-size: 12px;
+  // }
+
+  .date-container {
+    position: relative;
+  }
+
+  .blue-dot {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #0047ab;
+    border-radius: 50%;
+  }
+
+  .cl-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0047ab;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    position: relative;
+  }
+
+  .red-dot {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  .calendar__view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px 0px 16px;
+    .calendar__sub__view {
+      font-size: 16px;
+      font-weight: 600;
+      color: #686868;
+      // marginLeft: "8px",
+    }
+    .calendar__text__view {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .dot {
+        height: 8px;
+        width: 8px;
+        border-radius: 8px;
+        background-color: #0047ab;
+      }
+    }
+    .casual__text {
+      font-size: 14px;
+      font-weight: 400;
+      color: #686868;
+      margin-left: 8px;
+    }
+  }
+
+}
