@@ -49,9 +49,7 @@ const CreateRequestModal = ({ visible, onHide }) => {
         { name: 'Paris', code: 'PRS' }
     ];
 
-    const show = () => {
-        toast.current.show({ severity: 'success', summary: 'Request sent Successfully' });
-    };
+   
 
     return (
         <div>

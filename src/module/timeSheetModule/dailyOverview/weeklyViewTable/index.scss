@@ -1,10 +1,12 @@
 @import '../../../../colors.scss';
 
 .leave__pending__table {
-
+.eye__and__download__icon{
+    display: flex;
+}
 
     .p-datatable .p-datatable-thead>tr>th {
-        text-align: center !important;
+        text-align: left !important;
         padding: 1rem 1rem;
         border: 1px solid $solitude;
         border-width: 0 0 1px 0;
@@ -17,10 +19,9 @@
         font-size: 16px;
 
     }
-  
 
     .p-datatable .p-datatable-tbody>tr>td {
-        text-align: left;
+        text-align: center;
         border: 1px solid $solitude;
         border-width: 0 0 1px 0;
         padding: 1rem 1rem;
@@ -72,11 +73,7 @@
     }
 
 }
-.daily__task__details{
-    color: #686868;
-    font-weight: 500;
-    font-size: 20px;
-}
+
 .p-tabview .p-tabview-panels {
     background: $white;
     padding: 0;
@@ -84,35 +81,4 @@
     color: $darkblue;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
-}
-.daily__wireframes__text{
-    color: #0047AB;
-    font-size: 20px;
-    font-weight: 600;
-}
-.p-card .p-card-body {
-    padding: 0 1.25rem;
-}
-.task__details__assigned__text{
-    display: flex;
-    justify-content: space-between;
-}
-.assigned__text{
-    color: #8D8D8D;
-    font-weight: 500;
-    font-size: 16px;
-}
-.daily__description__text{
-    color:#686868;
-    font-size: 16px;
-    font-weight: 500;
-}
-.wire__frames__text{
-    color: #686868;
-    font-size: 14px;
-    font-weight: 500;
-    border: 1px solid #0047AB80;
-    border-radius: 6px;
-    height: 4rem;
-    padding: 10px;
 }

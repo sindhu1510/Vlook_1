@@ -5,7 +5,8 @@ import Attendance from "./module/Attendance/AttendanceScreens";
 import AttendanceList from "./module/Attendance/AttendanceList";
 import Regularization from "./module/Attendance/Regularization";
 import LeaveModule from "./module/leaveModule";
-import TimeSheetModule from './module/timeSheetModule'
+import TimeSheetModule from './module/timeSheetModule';
+
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/attendancelist" element={<AttendanceList/>}/>
           <Route path="/regularization" element={<Regularization/>}/>
           <Route path="/timesheet" element={ <TimeSheetModule/>}/>
+         
          
           {/* <Route path="/attendancelist" element={<AttendanceList/>}/>
           <Route path="/regularization" element={<Regularization/>}/> */}
