@@ -1,0 +1,45 @@
+@import '../../../../../colors.scss';
+
+.overall__leaves_overview__layout{
+    margin: 0;
+    .leaves__overview__header__text{
+        color: $dimgray;
+        font-weight: 600;
+        font-size: 20px;
+       
+    }
+    .overview__text__and__apply{
+        display: flex;
+        justify-content: space-between;
+        .leaves__overview__text{
+            color: $dimgray;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .overview__apply__button .p-button {
+            margin: 0;
+            display: inline-flex;
+            cursor: pointer;
+            user-select: none;
+            align-items: center;
+            vertical-align: bottom;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            background-color:$cobalt;
+            height: 40px;
+            color: $white;
+            font-size: 16px;
+            font-weight: 400;
+            justify-content: center;
+            width: 72px;
+        }
+    }
+    .overview__leave__Card{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+  
+}

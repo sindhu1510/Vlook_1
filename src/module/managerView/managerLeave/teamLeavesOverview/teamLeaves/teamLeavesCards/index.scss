@@ -1,0 +1,60 @@
+@import '../../../../../../colors.scss';
+.leavelist__and__upcommingdays{
+.leave__list__and__dropdown{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.leave__list__text{
+    color: #686868;
+    font-size: 20px;
+    font-weight: 600;
+}
+.jane__and__sick__text{
+    display: flex;
+    gap: 20px;
+   
+}
+.jane__cooper__text{
+    color: #686868;
+    font-size: 14px;
+    font-weight: 400;
+}
+.designer__text{
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sick__leave{
+    color: #E05A00;
+    font-size: 14px;
+    font-weight: 400;
+}
+.days__text{
+    color: #0047AB;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+}
+.leave__list__card__style{
+    height: 400px;
+}
+.apply__text{
+    border: 1px solid #0047AB;
+    border-radius: 6px;
+    height: 32px;
+    width: 60px;
+    color: #0047AB;
+    font-size: 14px;
+    font-family: 400;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.upcomming__holidays{
+    border-left: 6px solid #0047AB;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+}

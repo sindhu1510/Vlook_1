@@ -10,6 +10,8 @@ const SideBar = () => {
         <li><Link to="/attendance">Attendance</Link></li>
         <li><Link to="/timesheet">Time Sheet</Link></li>
         <li><Link to="/leave">Leave</Link></li>
+        <li><Link to="/myleaves">My Leave</Link></li>
+        <li><Link to="teamleaves">Team Leaves</Link></li>
       </ul>
     </div>
   );

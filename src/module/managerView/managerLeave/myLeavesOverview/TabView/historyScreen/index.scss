@@ -1,0 +1,74 @@
+@import '../../../../../../colors.scss' ;
+.leave__history__table{
+
+    .p-datatable .p-datatable-thead > tr > th {
+        text-align: left;
+        padding: 1rem 1rem;
+        border: 1px solid $solitude;
+        border-width: 0 0 1px 0;
+        font-weight: 500;
+        color: $cloud;
+        background: $cloud;
+        transition: box-shadow 0.2s;
+        background-color: $cobalt;
+        color: $white;
+        font-size: 16px;
+        
+    }
+    .p-datatable .p-datatable-tbody > tr > td {
+        text-align: left;
+        border: 1px solid $solitude;
+        border-width: 0 0 1px 0;
+        padding: 1rem 1rem;
+        font-size: 16px;
+        color: $dimgray;
+        font-weight: 400;
+    }
+    .p-dropdown {
+        
+        border: 1px solid $lightsilver;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        border-radius: 6px;
+        outline-color: transparent;
+        height: 32px;
+    }
+    .p-paginator .p-dropdown .p-dropdown-label {
+        padding-right: 0;
+      
+        align-items: center;
+        text-align: center;
+        display: flex;
+        color: $white;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .p-tabview .p-tabview-panels {
+        background: $white;
+        padding: 0rem 0;
+        border: 0 none;
+        color: $darkblue;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+    .pagination__count {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        
+     .pagination__count__title {
+      user-select: none !important;
+      color: $dimgray;
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    
+        .p-dropdown {
+         
+          border: none;
+          background-color: $cobalt;
+        }
+      }
+    }

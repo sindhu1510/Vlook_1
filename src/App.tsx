@@ -6,8 +6,8 @@ import AttendanceList from "./module/Attendance/AttendanceList";
 import Regularization from "./module/Attendance/Regularization";
 import LeaveModule from "./module/leaveModule";
 import TimeSheetModule from './module/timeSheetModule';
-
-
+import MyLeavesOverview from './module/managerView/managerLeave/myLeavesOverview'
+import TeamLeaves from './module/managerView/managerLeave/teamLeavesOverview/teamLeaves'
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,7 +19,8 @@ const App = () => {
           <Route path="/attendancelist" element={<AttendanceList/>}/>
           <Route path="/regularization" element={<Regularization/>}/>
           <Route path="/timesheet" element={ <TimeSheetModule/>}/>
-         
+          <Route path="/myleaves" element={<MyLeavesOverview/>}/>
+          <Route path="/teamleaves" element={<TeamLeaves/>}/>
          
           {/* <Route path="/attendancelist" element={<AttendanceList/>}/>
           <Route path="/regularization" element={<Regularization/>}/> */}
