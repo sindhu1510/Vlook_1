@@ -1,0 +1,184 @@
+@import '../../../../../colors.scss' ;
+.leave__history__table{
+    .table__column__teams{
+        text-align: center;
+    }
+
+    .p-datatable .p-datatable-thead > tr > th {
+        text-align: left;
+        padding: 1rem 1rem;
+        border: 1px solid $solitude;
+        border-width: 0 0 1px 0;
+        font-weight: 500;
+        color: $cloud;
+        background: $cloud;
+        transition: box-shadow 0.2s;
+        background-color: $cobalt;
+        color: $white;
+        font-size: 16px;
+        
+    }
+    .p-datatable .p-datatable-tbody > tr > td {
+        text-align: left;
+        border: 1px solid $solitude;
+        border-width: 0 0 1px 0;
+        padding: 1rem 1rem;
+        font-size: 16px;
+        color: $dimgray;
+        font-weight: 400;
+    }
+    .p-dropdown {
+        
+        border: 1px solid $lightsilver;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        border-radius: 6px;
+        outline-color: transparent;
+        height: 32px;
+    }
+    .p-paginator .p-dropdown .p-dropdown-label {
+        padding-right: 0;
+      
+        align-items: center;
+        text-align: center;
+        display: flex;
+        color: $white;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .p-tabview .p-tabview-panels {
+        background: $white;
+        padding: 0rem 0;
+        border: 0 none;
+        color: $darkblue;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+    .pagination__count {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        
+     .pagination__count__title {
+      user-select: none !important;
+      color: $dimgray;
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    
+        .p-dropdown {
+         
+          border: none;
+          background-color: $cobalt;
+        }
+      }
+    }
+    .leave__deail__view{
+        color: #686868;
+        font-size: 16px;
+        font-weight: 600;
+        width: 26%;
+    }
+    .jane__and__sick__text{
+        display: flex;
+       gap: 20px;
+    }
+    .jane__cooper__text{
+        font-size: 16px;
+        font-weight: 400;
+        color: #686868;
+    }
+    .designer__text{
+        color: #8D8D8D;
+        font-size: 14px;
+        font-family: 400;
+    }
+    .drawer__status__text{
+        color: #686868;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .request__type__casual__leave{
+        display: flex;
+        justify-content: space-between;
+    }
+    .request__type__text{
+        color: #8D8D8D;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .casual__leave__text{
+        color: #686868;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .description__text{
+        color: #686868;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .description__sub__text{
+        border: 1px solid #0047AB80;
+        height: 34px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .attached__document__text{
+        color: #686868;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .no__document__text{
+        color: #8D8D8D;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .reject__and__approve__text{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .reject__button.p-button {
+        margin: 0;
+        display: inline-flex;
+        cursor: pointer;
+        user-select: none;
+        align-items: center;
+        vertical-align: bottom;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        background-color: #FFFFFF;
+        color: #0047AB;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .approve__button.p-button {
+        margin: 0;
+        display: inline-flex;
+        cursor: pointer;
+        user-select: none;
+        align-items: center;
+        vertical-align: bottom;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        background-color: #0047AB;
+        color: #0047AB;
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .approve__reject__pending{
+        display: flex;
+        gap: 20px;
+    }
