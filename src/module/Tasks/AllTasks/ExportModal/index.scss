@@ -1,0 +1,67 @@
+/* CustomModal.css */
+@import "../../../../colors.scss";
+.custom-modal {
+    background-color: $black !important; 
+   .p-dialog-header {
+      display: none;
+    }
+    
+    .modal-content {
+      padding: 20px;
+    }
+    
+    .p-dialog-content {
+      background-color:$white; 
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .p-dialog-header {
+      background-color: $lightblue; 
+      color:$white; 
+      border-radius: 5px 5px 0 0;
+    }
+    
+    .p-dialog-header .p-dialog-title {
+      font-weight: bold;
+    }
+    
+    .p-dialog-footer {
+      padding: 10px;
+      text-align: right;
+    }
+    
+    .p-dialog-footer .p-button {
+      margin-left: 8px;
+    }
+    .text__do{
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      color: $dimgray;
+      margin-top: 12px;
+    }
+    .button__view{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin:16px 40px 0px 40px;
+    }
+    .button__no{
+      background-color: transparent;
+      border: transparent;
+      color: $dimgray;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 24px;
+    }
+    .button__yes{
+      background-color: $cobalt;
+      color:$white;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 24px;
+    }
+  }
+  
+  

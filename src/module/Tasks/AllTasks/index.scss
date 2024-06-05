@@ -1,0 +1,143 @@
+@import "../../../colors.scss";
+.allTasks__container {
+  .all__tasks__text {
+    font-size: 20px;
+    font-weight: 600;
+    color: $dimgray;
+    margin-top: 8px;
+  }
+  .request__type__dropdown {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .p-dropdown {
+      background-color: $cobalt;
+      border: 1px solid $navyblue;
+      border-radius: 6px;
+      .p-dropdown-trigger {
+        border: none;
+        .p-dropdown-label {
+          color: $white;
+        }
+      }
+      // svg.p-icon{
+      //  border-left: 2px solid $white;
+
+      // }
+    }
+    .p-inputtext {
+      padding: 8px;
+    }
+    .filer__icon {
+      height: 40px;
+      width: 40px;
+      background-color: $white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 6px;
+      margin-left: 16px;
+      cursor: pointer;
+    }
+  }
+  .border__view {
+    height: calc(100% - 30px);
+    width: 3px;
+    border-right: 3px solid $white;
+    position: absolute;
+    top: 14px;
+    left: 80px;
+    border-radius: 2px;
+  }
+  
+}
+.filter__status__text {
+  font-size: 14px;
+  font-weight: 400;
+  color: $dimgray;
+  margin-bottom: 16px;
+  // display: flex;
+  // justify-content: space-between;
+}
+.checkbox__color {
+  border: $cobalt;
+  margin-bottom: 16px;
+}
+.label__name {
+  font-size: 16px;
+  font-weight: 400;
+  color: $cobalt;
+  margin-bottom: 16px;
+}
+.filter__view {
+  margin-right: 58px;
+  margin-top: 12px;
+}
+.filter__next__view {
+  margin-top: 12px;
+}
+.button_view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  .apply__filter__button {
+    font-size: 16px;
+    font-weight: 400;
+    color: $white;
+    // margin-bottom: 16px;
+  }
+}
+.p-confirm-popup .p-confirm-popup-footer {
+  display: none;
+}
+// .p-confirm-popup .p-confirm-popup-content {
+//  display: flex;
+// align-items: flex-start;
+// }
+.p-confirm-popup .p-confirm-popup-message {
+  margin-left: 0rem;
+}
+
+.p-checkbox.p-highlight .p-checkbox-box {
+  background-color: $cobalt;
+  border-color: $cobalt;
+}
+.drop__down__import__view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $cobalt;
+  padding: 10px 16px;
+  border-radius: 6px;
+  .border__right__view {
+    border-right: 3px solid $white;
+    height: 16px;
+    border-radius: 6px;
+    margin: 0px 8px;
+  }
+  .import__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: $white;
+  }
+}
+.import__export__view {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 36px;
+  .import__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: $dimgray;
+    margin-bottom: 14px;
+  }
+  .export__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: $dimgray;
+    margin-top: 14px;
+  }
+}

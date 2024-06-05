@@ -1,0 +1,286 @@
+@import "../../../../colors.scss";
+.regularization__table {
+  .p-datatable .p-datatable-thead > tr > th {
+    text-align: center;
+    padding: 1rem 1rem;
+    border: 1px solid $solitude;
+    border-width: 0 0 1px 0;
+    font-weight: 500;
+    color: $cloud;
+    background: $ghostwhite;
+    transition: box-shadow 0.2s;
+    background-color: $cobalt;
+    color: $white;
+    font-size: 16px;
+  }
+
+  .p-datatable .p-datatable-tbody > tr > td {
+    text-align: center;
+    border: 1px solid $solitude;
+    border-width: 0 0 1px 0;
+    padding: 1rem 1rem;
+    font-size: 16px;
+    color: $dimgray;
+    font-weight: 400;
+  }
+  .p-dropdown {
+    border: 1px solid $lightsilver;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+      box-shadow 0.2s;
+    border-radius: 6px;
+    outline-color: transparent;
+    height: 32px;
+  }
+  .p-paginator .p-dropdown .p-dropdown-label {
+    padding-right: 0;
+
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: $white;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .pagination__count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    .pagination__count__title {
+      user-select: none !important;
+      color: $dimgray;
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .p-dropdown {
+      border: none;
+      background-color: $cobalt;
+    }
+  }
+}
+.p-tabview .p-tabview-panels {
+  background: $white;
+  padding: 0;
+  border: 0 none;
+  color: $darkblue;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.tabel__tasks__All__container {
+  margin-top: 16px;
+  border-radius: 6px;
+
+  background-color: $white;
+  height: 380px;
+  .tabel__view__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+
+    .attendance__list {
+      font-size: 20px;
+      font-weight: 400;
+      color: $dimgray;
+    }
+    .custom-header {
+      background-color: $darkRed !important;
+      color: $white;
+      text-align: center !important;
+    }
+    .custom__drawer .p-sidebar .p-sidebar-header {
+      // .p-sidebar .p-sidebar-header{
+      font-size: 30px;
+      font-weight: 500;
+      color: $dimgray;
+      // }
+    }
+  }
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: $cobalt !important;
+  color: $white;
+  text-align: center !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  text-align: center;
+  border: 1px solid $solitude;
+  border-width: 0 0 1px 0;
+  padding: 1rem 1rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+.p-datatable .p-column-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.p-datatable > .p-datatable-wrapper {
+  border-radius: 6px !important;
+}
+.p-datatable .p-paginator-bottom {
+  background-color: transparent;
+}
+
+/* CustomSidebar.css */
+
+.custom__drawer {
+  background-color: $antiflash;
+  width: 480px;
+  border-left: 2px solid $lightblue;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  .custom__drawer .p-sidebar-header {
+    background-color: $lightblue;
+    color: $white;
+    padding: 20px;
+  }
+
+  .custom__drawer .p-sidebar-content {
+    padding: 20px;
+  }
+
+  .custom__drawer .p-sidebar-footer {
+    background-color: $lightblue;
+    color: $white;
+    padding: 10px;
+  }
+
+  .card__custom__view {
+    // display: grid;
+    // justify-content: space-between;
+    width: 100%;
+
+    .card__view__container {
+      background-color: $white;
+      border-radius: 6px;
+      padding: 16px;
+      .create__wire {
+        font-size: 20px;
+        font-weight: 600;
+        color: $cobalt;
+        margin-top: 8px;
+        margin-bottom: 28px;
+      }
+      .assigned__view {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 0px;
+      }
+      .description__view {
+        font-size: 16px;
+        font-weight: 500;
+        color: $dimgray;
+        margin-bottom: 12px;
+      }
+    }
+
+    .card__view__container__two {
+      background-color: $white;
+      border-radius: 6px;
+      padding: 16px;
+      margin-top: 24px;
+      .plus__icon__view {
+        padding: 14px 20px;
+        border: 1px solid $cobalt;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .sub__task__view {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .sub__task {
+        font-size: 20px;
+        font-weight: 600;
+        color: $dimgray;
+        // margin-bottom: 12px;
+      }
+    }
+    .start__confirm__view {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 100px;
+    
+    }
+    .start__view {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $thickblue;
+      border-radius: 6px;
+      margin-left: 40px;
+      // margin: 10px 36px;
+      // padding: 18px 24px;
+      .start__text {
+        font-size: 16px;
+        font-weight: 600;
+        color: $white;;
+        padding: 18px 24px;
+      }
+      .completed__text{
+        font-size: 16px;
+        font-weight: 600;
+        color: $white;;
+        padding: 18px 16px;
+      }
+      .drop__icon{
+        padding: 18px 24px;
+      }
+      .drop__icon__complete{
+        padding: 18px 16px;
+      }
+      // .complete__text{
+      //   font-size: 16px;
+      //   font-weight: 600;
+      //   color: $white;;
+      //   padding: 18px 24px;
+      // }
+    }
+    .complete__view {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $dimGreen;
+      border-radius: 6px;
+      margin-right: 40px;
+      // margin: 10px 36px;
+      // padding: 18px 24px;
+      .start__text {
+        font-size: 16px;
+        font-weight: 600;
+        color: $white;;
+        padding: 18px 24px;
+      }
+      .completed__text{
+        font-size: 16px;
+        font-weight: 600;
+        color: $white;;
+        padding: 18px 16px;
+      }
+      .drop__icon{
+        padding: 18px 24px;
+      }
+      .drop__icon__complete{
+        padding: 18px 16px;
+      }
+    }
+  }
+}

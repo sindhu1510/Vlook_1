@@ -1,21 +1,22 @@
 
+@import "../../../../colors.scss";
 .register__modal {
   .request__type__dropdown {
     width: 100%;
-    border: 1px solid #0047ab80;
+    border: 1px solid $navyblue;
     border-radius: 6px;
   }
   .required__field {
-    color: #c60000;
+    color: $darkRed;
   }
   svg.p-icon {
     pointer-events: auto;
-    color: #0047ab;
+    color: $cobalt;
     /* height: 12px; */
     /* width: 6px; */
   }
   .request__type__text {
-    color: #686868;
+    color: $dimgray;
     font-size: 16px;
     font-weight: 600;
   }
@@ -23,13 +24,13 @@
     width: 100%;
     height: 110px;
     border-radius: 8px;
-    border: 1px solid #0047ab80;
+    border: 1px solid $navyblue;
     border-radius: 6px;
   }
   .start__time {
     width: 100%;
     border-radius: 8px;
-    border: 1px solid #0047ab80;
+    border: 1px solid $navyblue;
     border-radius: 6px;
   }
   .p-chips .p-chips-multiple-container {
@@ -50,7 +51,7 @@
     flex-direction: column;
     align-items: center;
     // padding: 1rem;
-    border: 1px solid #0047ab80;
+    border: 1px solid $navyblue;
     border-radius: 6px;
     height: 50px;
 
@@ -65,7 +66,7 @@
     }
 
     .upload__caption {
-      color: #0047ab;
+      color: $cobalt;
       font-weight: 600;
       font-size: 16px;
     }
@@ -89,7 +90,7 @@
       height: 50px;
       width: 50px;
       border-radius: none !important;
-      border: white;
+      border: $white;
       border-style: none !important;
       display: none;
     }
@@ -113,7 +114,7 @@
   }
 }
 .p-dialog .p-dialog-header .p-dialog-title {
-  color: #686868;
+  color: $dimgray;
   font-size: 16px;
   font-weight: 600;
 }
@@ -126,22 +127,22 @@
   outline: 0 none;
   outline-offset: 0;
   box-shadow: 0 0 0 0.2rem transparent;
-  border-color: #f0f0f0;
+  border-color: $antiflash;
 }
 
 .p-calendar-w-btn-right .p-datepicker-trigger {
-  color: #1e62e8;
-  background: #fff !important;
+  color: $royalblue;
+  background: $white!important;
   padding: 0rem;
-  border: #d1d5db !important;
+  border: $lightsilver !important;
   transition: background-color 0.2s, color 0.2s, border-color 0.2s,
     box-shadow 0.2s;
   border-top-style: dashed;
-  border-top-color: #d1d5db;
-  border-top: 1px solid #d1d5db !important;
+  border-top-color: $lightsilver;
+  border-top: 1px solid $lightsilver !important;
   border-left: hidden;
-  border-bottom: 1px solid #d1d5db !important;
-  border-right: 1px solid #d1d5db !important;
+  border-bottom: 1px solid $lightsilver !important;
+  border-right: 1px solid $lightsilver !important;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
 }
@@ -149,7 +150,7 @@
   position: relative;
   display: inline-flex;
   max-width: 100%;
-  border: 1px solid #0047ab80;
+  border: 1px solid $navyblue;
   width: 100%;
   border-radius: 6px;
 }
@@ -164,7 +165,7 @@
   overflow: hidden;
   position: relative;
   display: flex;
-  background-color: #0047ab;
+  background-color: $cobalt;
   align-items: flex-end;
   justify-content: flex-end;
   text-align: end !important;
@@ -172,13 +173,13 @@
 
 .custom-toast {
   .p-toast-message {
-    background-color: #c2eeff !important;
-    color: #0074ab;
+    background-color: $paleblue !important;
+    color: $thickblue;
     font-weight: 500;
     // font-size: 14px;
 
     .p-toast-icon {
-      color: red !important;
+      color: $darkRed !important;
     }
   }
 }
