@@ -1,0 +1,118 @@
+@import "../../../../colors.scss";
+.import__popup__view {
+  .all__alighment__view {
+    margin-top: 12px;
+    .input__name {
+      font-size: 14px;
+      font-weight: 600;
+      color: $dimgray;
+      margin-bottom: 8px;
+      border-color: $cobalt;
+
+      .star__text {
+        font-size: 14px;
+        font-weight: 600;
+        color: $darkRed;
+        margin-bottom: 8px;
+      }
+    }
+    .dropdown__datas {
+      display: flex;
+      align-items: center;
+      .ststus__data {
+        border: 1px solid $cobalt;
+        padding: 4px;
+        font-size: 14px;
+        font-weight: 600;
+        color: $dimgray;
+        border-radius: 6px;
+      }
+      .ststus__data__next {
+        border: 1px solid $cobalt;
+        padding: 4px;
+        font-size: 14px;
+        font-weight: 600;
+        color: $dimgray;
+        border-radius: 6px;
+        margin: 0px 16px;
+      }
+    }
+  }
+  
+ .file__selector{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid $cobalt;
+    border-radius: 6px;
+ }
+ .file__selector  .p-button.p-fileupload-choose{
+
+ }
+.file__selector .p-fileupload-choose {
+    background-color: transparent; 
+    border-radius: 5px; 
+    border: transparent;
+    color: $cobalt;
+  }
+ 
+  .file__selector  .p-fileupload .p-fileupload-basic .p-component{
+  
+  }
+ 
+  .file__selector .p-fileupload-choose .p-button-text {
+    display: none;
+    
+  }
+  
+ 
+  .icon__click__option {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    color: $darkRed;
+  }
+  
+ 
+  .upload__caption {
+    margin-top: 4px; 
+    text-align: left;
+   
+  }
+  
+  .button__view__main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 12px;
+    .button__view {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      border-radius: 4px;
+      .button__style {
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 4px;
+      }
+    }
+  }
+  
+
+}
+.upload__caption{
+    text-align: center;
+    color: $darkRed
+}
+.file__view .p-fileupload{
+  color: $dimgray;
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 0px;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+  border-radius: 6px;
+}
+

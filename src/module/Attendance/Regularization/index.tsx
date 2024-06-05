@@ -26,7 +26,7 @@ const Regularization = () => {
         </div>
       </div>
         <RequestCards />
-       <div className="col-12">
+       <div className="col-12 pl-3 pr-3">
        <RegularizationTabel
        setVisible={setVisible}
        />

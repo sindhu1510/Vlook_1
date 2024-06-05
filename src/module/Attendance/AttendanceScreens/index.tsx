@@ -15,20 +15,20 @@ const Attendance = () => {
   const [visible, setVisible] = useState(false);
   return (
     <div className="grid m-0 attendance__container">
-      <div className="col-12 md:col-6 lg:col-6">
+      <div className="col-12 md:col-6 lg:col-6 p-3">
         <div className="overview__text">Overview</div>
       </div>
       <div
         onClick={() => setVisible(true)}
-        className="col-12 md:col-6 lg:col-6 registe__button__view"
+        className="col-12 md:col-6 lg:col-6 registe__button__view p-3"
       >
         <div className="registe__button">
           <div>Regularization</div>
         </div>
       </div>
-      <div className="col-12 md:col-12 lg:col-6 xl:col-4">
+      <div className="col-12 md:col-12 lg:col-6 xl:col-4 ">
         <div className="grid">
-          <div className="col-12">
+          <div className="col-12 p-3">
             <div className="shadow-1 card__view">
               <div className="actual__working__view">
                 <div className="actual__text">
@@ -56,7 +56,7 @@ const Attendance = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 mt-2">
+          <div className="col-12 pl-3 pr-3 pb-3 ">
             <div className="shadow-1 card__view " >
               <div className="actual__working__view">
                 <div className="actual__text">Actual Working hours (April)</div>
@@ -83,16 +83,16 @@ const Attendance = () => {
           </div>
         </div>
       </div>
-      <div className="col-12 md:col-12 lg:col-6 xl:col-3">
+      <div className="col-12 md:col-12 lg:col-6 xl:col-3 p-3">
         <ToadyActivityCard />
       </div>
-      <div className="col-12 md:col-12 lg:col-12 xl:col-5 mb-3">
+      <div className="col-12 md:col-12 lg:col-12 xl:col-5 p-3">
         <CalendarComponent />
       </div>
-      <div className="col-12 md:col-12 lg:col-12 xl:col-8">
+      <div className="col-12 md:col-12 lg:col-12 xl:col-8 p-3">
         <BasicDemo />
       </div>
-      <div className="col-12 md:col-12 lg:col-12 xl:col-4">
+      <div className="col-12 md:col-12 lg:col-12 xl:col-4 p-3">
         <Status />
       </div>
       <div>

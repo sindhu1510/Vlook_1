@@ -1,0 +1,107 @@
+@import "../../../colors.scss";
+.tasks__container {
+  .in__progress__view {
+    background-color: $white;
+    padding: 16px;
+    border-radius: 6px;
+    
+    .inprogrss__view {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .inprogress__text {
+        font-size: 20px;
+        font-weight: 400;
+        color: #686868;
+      }
+    }
+    .border__with__text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .drop__down__view {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 28px;
+        border-bottom: 2px solid #e05a00;
+        width: 120px;
+        padding-bottom: 2px;
+        .num__text {
+          font-size: 40px;
+          font-weight: 600;
+          color: #e05a00;
+          margin-right: 8px;
+        }
+        .num__text__pending{
+            font-size: 40px;
+            font-weight: 600;
+            color: #C60000;
+            margin-right: 8px;
+        }
+        .polygon__icon {
+          margin-bottom: 8px;
+        }
+        .border__line {
+        }
+      }
+      .drop__down__view__pending {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 28px;
+        border-bottom: 2px solid #C60000;
+        width: 120px;
+        padding-bottom: 2px;
+      
+        .num__text__pending{
+            font-size: 40px;
+            font-weight: 600;
+            color: #C60000;
+            margin-right: 8px;
+        }
+        .polygon__icon {
+          margin-bottom: 8px;
+        }
+        .border__line {
+        }
+      }
+      .drop__down__view__Completed{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 28px;
+        border-bottom: 2px solid #00AA00;
+        width: 120px;
+        padding-bottom: 2px;
+      
+        .num__text__completed{
+            font-size: 40px;
+            font-weight: 600;
+            color:#00AA00;
+            margin-right: 8px;
+        }
+        .polygon__icon {
+          margin-bottom: 8px;
+        }
+        .border__line {
+        }
+      }
+    }
+    .task__text_progress{
+        text-align: center;
+        margin-top: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #686868;
+    }
+   
+      .overview__text {
+        font-size: 20px;
+        font-weight: 600px;
+        color: #686868;
+        // margin: 8px 8px;
+      }
+  }
+}
